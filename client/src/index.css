@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: 'Prompt', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, sans-serif, 'Courier New', 'Roboto',
+    monospace;
+}

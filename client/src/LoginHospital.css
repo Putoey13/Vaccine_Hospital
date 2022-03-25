@@ -1,0 +1,99 @@
+
+.text {
+  text-align: center;
+  font-size: 30px;
+
+}
+
+.textID {
+  position: absolute;
+  left: 50px;
+  top: 70px;
+  font-size: 16px;
+
+}
+
+.textPW {
+  position: absolute;
+  left: 50px;
+  top: 150px;
+  font-size: 16px;
+  
+}
+
+.LOGIN_BG {
+  position: absolute;
+  width: 450px;
+  height: 320px;
+  left: center;
+  top: center;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.LOGINVER2 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #7a7a7a;
+}
+
+.textbox_ID {
+  position: absolute;
+  width: 350px;
+  height: 30px;
+  left: 50px;
+  top: 110px;
+
+  border: 1px solid #979797;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.textbox_password {
+  position: absolute;
+  width: 350px;
+  height: 30px;
+  left: 50px;
+  top: 190px;
+
+  border: 1px solid #979797;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.btnLogin{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 300px;
+    top: 255px;
+    font-size: 14px;
+    background-color: #4C3CAC;
+    color:white;
+    
+}
+
+.btnLogin:hover {
+  background: #0F006C;
+}
+.alert{
+    position: absolute;
+
+    left: 7.4%;
+    top: 20%;
+    
+    font-size: 12px;
+    color:red;
+}
