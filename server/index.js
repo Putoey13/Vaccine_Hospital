@@ -50,7 +50,7 @@ app.post('/update', (req, res) => {
     const Hospital_ID = req.body.Hospital_ID;
     const GotVaccine = req.body.GotVaccine;
 
-    db.query("UPDATE registervaccine SET GotVaccine = 'ได้รับวัคซีนแล้ว' , Date = NOW() WHERE registervaccine.ID = ? ", [ID] ,
+    db.query("UPDATE registervaccine SET GotVaccine = 'ได้รับวัคซีนแล้ว' , Date = NOW() WHERE registervaccine.ID = ? and GotVaccine = 'ยังไม่ได้รับวัคซีน'", [ID] ,
      (err, result) =>{
         if (err){
             console.log(err);
